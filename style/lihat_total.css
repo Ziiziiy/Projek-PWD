@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+}
+
+header {
+    background: #121313;
+    color: white;
+    text-align: center;
+    padding: 15px 30px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+} 
+
+nav {
+    position: relative;
+}
+
+.logout-btn {
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    background-color: #5b5bff;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+}
+
+.logout-btn:hover {
+    background-color: #3d3ddc;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #34495e;
+}
+
+table {
+    width: 95%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 12px rgba(0,0,0,0.05);
+}
+
+th, td {
+    padding: 14px;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+}
+
+th {
+    background: #3498db;
+    color: white;
+}
+
+td.masuk {
+    color: #27ae60;
+    font-weight: bold;
+}
+
+td.keluar {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+canvas {
+    display: block;
+    margin: 30px auto;
+}
+
+.total-saldo {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
