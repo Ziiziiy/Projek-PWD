@@ -21,7 +21,7 @@ $id_admin = $_SESSION['id_admin']; // Ambil ID admin dari session
 
     <header>
         <nav>
-            <h1>Dashboard</h1>
+            <h1>Dashboard SATU</h1>
             <h2>Selamat datang, <?= $_SESSION['username'] ?></h2>
             <a href="logout.php" class="logout-btn">Logout</a>
         </nav>
